@@ -1,0 +1,39 @@
+{
+  "name": "ethan-cli",
+  "version": "0.1.0",
+  "description": "Command line interface",
+  "bin": {
+    "camellia": "bin/core.js"
+  },
+  "keywords": [
+    "ethan",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Ethan Noh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "ejs": "^2.6.1",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "globby": "^9.0.0",
+    "inquirer": "^6.2.2",
+    "isbinaryfile": "^3.0.2",
+    "lodash.clonedeep": "^4.5.0",
+    "minimist": "^1.2.0",
+    "resolve": "^1.10.0",
+    "slash": "^2.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
